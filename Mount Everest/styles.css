@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(10, 132, 180);
+    background: linear-gradient(90deg,rgba(55, 84, 94, 1) 0%, rgba(37, 129, 148, 1) 53%, rgba(0, 212, 255, 1) 100%);
+    font-family: 'Times New Roman', serif;
+}
+
+h1 {
+    color: rgb(0, 217, 255);
+    text-align: center;
+    text-shadow:  2px 2px 6px black;
+}
+
+
+.box {
+    max-width: 500px;
+    padding: 10px;
+    background-color: white;
+    opacity: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px black;
+}
+
+.hora {
+    max-width: 1200px;;
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+
+.hora img {
+    max-width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px black;
+    
+}
+
+.infotext {
+    width: 1000px;
+    height: 80px;
+    background-color: white;
+    opacity: 70%;
+    border-radius: 5px;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 0 4px 10px black;
+}
