@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Evidence receptů</h1>
+</header>
+
+<nav>
+    <a href="#recepty">Recepty</a>
+    <a href="#pridat">Přidat recept</a>
+</nav>
+
+<section id="recepty">
+    <h2>Seznam receptů</h2>
+
+    <input type="text" id="search" placeholder="Vyhledat recept...">
+
+    <div class="cards">
+        <div class="card">
+            <h3 class="nazev">Těstoviny</h3>
+            <button>Ingredience</button>
+        </div>
+
+        <div class="card">
+            <h3 class="nazev">Pizza</h3>
+            <button>Ingredience</button>
+        </div>
+
+        <div class="card">
+            <h3 class="nazev">Salát</h3>
+            <button>Ingredience</button>
+        </div>
+    </div>
+</section>
+
+<section id="pridat">
+    <h2>Přidat recept</h2>
+
+    <form id="form">
+        <input type="text" id="nazevReceptu" placeholder="Název receptu" required>
+        <input type="submit" value="Přidat">
+    </form>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
